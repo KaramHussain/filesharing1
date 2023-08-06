@@ -1,42 +1,119 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+    background-color: #343a40;
+    color: #fff;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .container {
+    margin-top: 50px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  .form-container {
+    background-color: #f0ad4e;
+    border-radius: 10px;
+    padding: 20px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  
+  .form-container h2 {
+    color: #343a40;
+  }
+  
+  .form-container .form-group label {
+    color: #343a40;
+  }
+  
+  .form-container .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .form-container .btn-primary:hover {
+    background-color: #2a2f36;
+    border-color: #2a2f36;
+  }
+  
+  .file-container {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .file-container h2 {
+    color: #f0ad4e;
+  }
+  
+  .file-container .form-group label {
+    color: #f0ad4e;
+  }
+  
+  #emailList {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0ad4e;
+    color: #343a40;
+    border-radius: 5px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2f36;
+    color: #f0ad4e;
+    border: 1px solid #f0ad4e;
+    margin-bottom: 5px;
+  }
+  
+  .list-group-item button {
+    margin-left: 10px;
+  }
+  
+  /* File Input Style */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #f0ad4e;
+    color: #343a40;
+    border-radius: 5px;
+    border: 1px solid #f0ad4e;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #2a2f36;
+    color: #f0ad4e;
+  }
+  
+  /* Button Style */
+  .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2a2f36;
+    border-color: #2a2f36;
+    color: #f0ad4e;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+  
+  /* Alert Style */
+  .alert {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
